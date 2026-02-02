@@ -1,0 +1,141 @@
+body {
+background-image: url('Assets/Images/background.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+#Welcome-Section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.236);
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 50px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  gap: 20px;
+  font-size: 23px;
+}
+#Bio-Section {
+  padding: 50px;
+  background-color: rgba(193, 228, 166, 0.389);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  text-shadow: 2px 2px 5px rgb(14, 87, 4);
+}
+#Zyralis-Section {
+  padding: 50px;
+  background-color: rgba(193, 228, 166, 0.389);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 38px;
+  text-shadow: 2px 2px 5px rgb(6, 89, 136);
+}
+#momc-Section {
+  padding: 50px;
+  background-color: rgba(193, 228, 166, 0.389);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 38px;
+  text-shadow: 2px 2px 5px rgb(75, 12, 115);
+}
+#dl-Section {
+  padding: 50px;
+  background-color: rgba(193, 228, 166, 0.389);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 38px;
+  text-shadow: 2px 2px 5px rgb(46, 5, 95);
+}
+/* Navigation Buttons Styling */
+.navbuttons {
+       background-color: rgba(0, 0, 0, 0.4);
+       color: white;
+       padding: 10px 40px;
+       border-radius: 12px;
+       text-align: center;
+       font-size: 20px;
+       font-weight: bold;
+       width: 200px;
+       box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 0 15px rgba(255,255,255,0.2) inset;
+       transition: background 0.3s, transform 0.2s;
+       border: 2px solid rgba(255, 255, 255, 0.2); /* light border */
+}
+/* Hover Effect for Navigation Buttons */
+.navbuttons:hover {
+       background-color: rgba(202, 202, 202, 0.678);
+       color: black;
+       cursor: pointer;
+       transition: background-color 0.3s, color 0.3s;
+}
+/* Container for Navigation Buttons */
+#momc-Button{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 0 auto;
+       background-color: rgba(133, 33, 187, 0.5);
+       padding: 20px;
+       border-radius: 15px;
+       box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 0 15px rgba(255,255,255,0.2) inset;
+       transition: background 0.3s, transform 0.2s;
+       border: 2px solid rgba(255, 255, 255, 0.2); /* light border */
+}
+#dl-Button{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 0 auto;
+       background-color: rgba(10, 7, 189, 0.5);
+       padding: 20px;
+       border-radius: 15px;
+       box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 0 15px rgba(255,255,255,0.2) inset;
+       transition: background 0.3s, transform 0.2s;
+       border: 2px solid rgba(255, 255, 255, 0.2); /* light border */
+}
+#profile {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#ytlogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+@font-face {
+    font-family: 'Bitcount Single';
+    src: url('Assets/Fonts/BitcountSingle-Regular.woff2') format('woff2'),
+        url('Assets/Fonts/BitcountSingle-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@media (max-width: 410px) {
+  h1, h2, p{
+    font-size: 20px;
+  }
+}
